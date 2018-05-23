@@ -1,0 +1,104 @@
+
+.show{
+  display : block;
+}
+.hide{
+  display : none;
+}
+.reportContainer,.groupHierarchyTreeSection {
+    margin: 45px 20%;
+  }
+  .reportDescription{
+    margin-top : 20px;
+  }
+  .groupSeperation{
+    margin-top : 40px;
+  }
+
+  .newGroups,.existingGroups{
+    border:1px solid grey;
+    height: 300px;
+    box-shadow: 5px 5px 3px grey;
+    overflow: scroll;
+  }
+
+  .reportGroupButtons{
+    margin-top : 40px;
+  }
+  .reportGroupDelete{
+    background: #d41b3e !important;
+  }
+  .reportGroupDelete,.reportGroupCancel{
+    margin-left : 5px;
+  }
+
+  .unLinkedGroupList,.linkedGroupList{
+    list-style:none;
+    padding-left:0px;
+    padding-top: 10px;
+  }
+
+  .selectAllGroups{
+    padding-top:10px;
+  }
+  .groupNameLabel, .groupLabelDescription{
+    font-weight : 100;
+  }
+  .reportGroupSave,.reportGroupDelete,.reportGroupCancel{
+    border-radius : 0 !important;
+  }
+  .moveGroupStore{
+    text-align:center;
+        top: 150px;
+  }
+
+  .reportGroupButtons{
+      margin-bottom: 10px;
+  }
+
+  .reportGroupName{
+    margin-top : 20px;
+  }
+
+  .reportHierarchyContainer{
+    width : 850px !important;
+  }
+  .groupHierarchyTree{
+    margin-top : 20px;
+  }
+
+/* .rc-tree li span.rc-tree-checkbox , .rc-tree-iconEle.rc-tree-icon__close, .rc-tree li span.rc-tree-iconEle{
+  display : none !important;
+} */
+
+.rc-tree li.treeNode span.rc-tree-checkbox , li.treeNode .rc-tree-iconEle.rc-tree-icon__close, .rc-tree li.treeNode span.rc-tree-iconEle{
+  display : none !important;
+}
+
+.treeNode span.rc-tree-switcher{
+
+  background: url('../../images/groupToggleIcon.png') !important;
+  background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+ -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+ -moz-background-size: cover; /* optional for Firefox 3.6 */
+ width: 28px !important;
+ height: 30px !important;
+}
+
+.hierarchyTree{
+  font-size: 18px;
+}
+
+.groupHierarchyTree{
+  border: 3px solid grey;
+  height: 450px;
+  width: 50%;
+}
+
+.rc-tree li span.rc-tree-switcher.rc-tree-switcher_open{
+      background-position: -93px -56px;
+}
+
+.rc-tree li span.rc-tree-switcher.rc-tree-switcher_close{
+  background-position: -75px -56px;
+}
